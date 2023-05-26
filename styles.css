@@ -3,6 +3,7 @@
 body {
     text-align: center;
     background-color: cornflowerblue;
+    margin: 0;
 }
 
 section {
@@ -15,16 +16,21 @@ h1 {
     font-family: sans-serif; 
     color: whitesmoke;
     padding: 20px 10px;
+    background-color: darkblue;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 h1 a:first-child {
+    text-decoration: none;
     font-size: 40px;
     color: whitesmoke
 }
 
 h1 a:last-child {
+    text-decoration: none;
     display: block;
-    font-size: 0.8em; 
+    font-size: 30px;
     margin-top: 5px;
 }
 
@@ -41,13 +47,3 @@ nav a {
     text-decoration: none;
     color: white;
 }
-
-
-/* main {
-    position: relative;
-    background-image: url('./surgery.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding-top: 100px;
-} */
