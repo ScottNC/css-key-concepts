@@ -26,9 +26,9 @@ h1 a:first-child {
 
 h1 a:last-child {
     text-decoration: none;
-    display: block;
+    display: inline-block;
+    margin-left: 30px;
     font-size: 30px;
-    margin-top: 5px;
     color: white;
 }
 
@@ -39,7 +39,7 @@ h1 a:last-child::before {
     filter: invert(1);
     height: 30px;
     width: 30px;
-    transform: scale(5%) translateY(-1070%);
+    transform: scale(5%) translateY(-1200%);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -65,4 +65,9 @@ nav a:hover {
     text-decoration: underline;
     border-radius: 10px;
     background-color: #003C3C;
+}
+
+h1 a:hover {
+    text-decoration: underline;
+    color: #00EEEE;
 }
