@@ -108,6 +108,7 @@ nav a.search button:active {
     border-width: 2px;
     color: #00FFFF
 }
+
 section {
     display: inline-block;
     width: 47%;
@@ -129,10 +130,38 @@ section.warning {
 }
 
 section.warning strong {
-    color: #FF6060;
+    color: #FF0000;
 }
 
-section.image img {
-    width: 100%;
+section.image {
+    position: relative;
+    background-image: url("surgery.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     height: auto;
+}
+
+section.image h2 {
+    align-items: center;
+    display: inline-block;
+    font-size: 28px;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    margin-top: 20%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 5%;
+}
+
+section.image p {
+    align-items: center;
+    display: inline-block;
+    padding: 3%;
+    background-color: rgb(219, 219, 0);
+    border-radius: 10%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000000;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
