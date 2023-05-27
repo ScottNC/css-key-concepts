@@ -1,10 +1,12 @@
 body {
     text-align: center;
-    background-color: #00ccbb;
+    background-color: #00bbaa;
     margin: 0;
 }
 
 h1 {
+    position: relative;
+    align-items: center;
     display: flex;
     text-transform: uppercase; 
     font-family: sans-serif;
@@ -12,7 +14,7 @@ h1 {
     padding-right: 7%;
     padding-top: 3%;
     padding-bottom: 3%;
-    background-color: #006666;
+    background: linear-gradient(130deg, #003366 64.5%, #660000 65%);
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -21,7 +23,7 @@ h1 a:first-child {
     display: flex;
     text-decoration: none;
     font-size: 40px;
-    color: white;
+    color: cyan;
     white-space: nowrap;
 }
 
@@ -30,7 +32,6 @@ h1 a:first-child::before {
     transform: scale(300%);
     margin-right: 10%;
     content: url("./logo.png");
-    filter: invert(1);
     width: 40px;
     height: 40px;
 }
@@ -41,7 +42,7 @@ h1 a:last-child {
     align-self: flex-end;
     margin-left: auto;
     font-size: 30px;
-    color: white;
+    color: cyan;
     white-space: nowrap;
 }
 
@@ -50,21 +51,12 @@ h1 a:last-child::before {
     content: url("./phone.png");
     margin-left: auto;
     margin-right: 5%;
-    filter: invert(1);
     height: 35px;
     width: 35px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
     vertical-align: middle;
-}
-
-h1 a:hover {
-    text-decoration: underline;
-}
-
-h1 a:active {
-    color: #00FFFF;
 }
 
 nav {
@@ -127,7 +119,7 @@ section {
     border-style: solid;
     border-color: #000000;
     border-width: 2px;
-    background-color: #00A1A1;
+    background-color: #006060;
     margin-left: auto;
     margin-right: auto;
 }
@@ -137,7 +129,7 @@ section.warning {
 }
 
 section.warning strong {
-    color: rgb(192, 61, 0);
+    color: #FF6060;
 }
 
 section.image img {
