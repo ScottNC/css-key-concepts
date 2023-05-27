@@ -43,7 +43,10 @@ h1 a:last-child::before {
 
 h1 a:hover {
     text-decoration: underline;
-    color: #00EEEE;
+}
+
+h1 a:active {
+    color: #00FFFF;
 }
 
 nav {
@@ -69,14 +72,32 @@ nav a:not(.search):hover {
     background-color: #003C3C;
 }
 
+nav a:not(.search):active {
+    color: #00EEEE;
+}
+
 nav a.search {
+    font-size: 15px;
     margin-left: 25px;
     padding: 10px 20px;
     justify-content: flex-end;
     border-radius: 10px;
-    background-color: #000000;
 }
 
+nav a.search button {
+    padding: 5px 10px;
+    background-color: #001515;
+    color: white;
+    border-color: #000000;
+    border-radius: 4px;
+}
+
+nav a.search button:active {
+    padding: 5px 10px;
+    background-color: #001C1C;
+    border-width: 2px;
+    color: #00FFFF
+}
 section {
     display: inline-block;
     width: 48%;
